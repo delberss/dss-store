@@ -1,0 +1,99 @@
+.header {
+    background-color: #097981;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-size: 1.4rem;
+}
+
+@media (max-width: 780px) {
+  .header{
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .products{
+    flex-direction: column;
+  }
+
+  .logo{
+    height: 30% !important;
+  }
+}
+
+.logo{
+  height: 100%;
+}
+
+.header > .user-menu {
+    display: flex;
+}
+
+  
+  .closeModal:hover {
+    background-color: #1dc0cc;
+  }
+
+.user-menu div {
+    padding: 16px;
+    margin-right: 8px;
+}
+
+.header button{
+    border: none;
+    border-radius: 4px;
+
+    font-size: 1.2rem;
+    padding: 8px;
+
+    cursor: pointer;
+}
+
+.shopping-cart-icon{
+    color: #FEFE;
+    font-size: 2rem;
+
+    cursor: pointer;
+}
+
+.icon-and-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #FEFE;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .form label {
+    font-size: 1.4rem;
+    color: #FEFEFE;
+  }
+  
+  .form input,
+  .form button {
+    margin: 8px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1.4rem;
+  }
+  
+  .form button {
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,19 @@
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.NavBar a{
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: #FEFE;
+    padding: 16px;
+
+    text-decoration: none;
+}
+
+.NavBar a:hover{
+    background-color: #eae0e0;
+    color: #000;
+}
