@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Dss Store 
+Projeto de uma loja de eletrônicos sendo desenvolvido com React JS, Node JS e Mongodb
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Preview
 
-In the project directory, you can run:
+![2023-03-23 10-20-50 (1)](https://user-images.githubusercontent.com/71342302/227218269-ab8537ba-d973-4a77-93b5-57551b98fce6.gif)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Para rodar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Faça o clone do projeto
 
-### `npm test`
+<li>npm install para instalar todas as dependências do projeto frontend</li>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<li>cd backend para entrar na pasta backend</li>
 
-### `npm run build`
+<li>npm install para instalar todas as dependências do projeto backend</li>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<li>npm start em ambas pastas</li>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## React JS
+Usando Material UI e React Icons para estilização.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Utilizando do React Redux para gerenciamento de estado da aplicação
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Node JS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Uso do express, cors e outros pacotes para desenvolvimento do banco de dados.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Rotas de usuários e produtos.
 
-## Learn More
+## MongoDB
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Uso do MongoDB Atlas como plataforma do banco de dados
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Postman
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para controle, consulta e verificação das rotas
