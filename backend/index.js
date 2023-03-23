@@ -1,12 +1,16 @@
 const connect = require('./dataBase/connect');
+const express = require('express')
+const cors = require('cors')
 connect();
+
+
+const port = process.env.PORT || 3001;
 
 const products = require("./products")
 
 const bcrypt = require("bcrypt");
 
-const express = require('express')
-const cors = require('cors')
+
 const app = express();
 
 const User = require("./models/User")
@@ -239,7 +243,7 @@ app.post('/register', async (req, res) => {
     }
 })
 
-const port = 8080;
+
 app.listen(port, () => {
     console.log(`Executando na porta ${port}`)
 })
