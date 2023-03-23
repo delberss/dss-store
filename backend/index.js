@@ -18,6 +18,9 @@ const User = require("./models/User")
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  return res.json("hello world!")
+})
 
 // PEGA TODOS USUARIOS DO BANCO
 app.get('/users', async (req, res) => {
